@@ -5,7 +5,10 @@
     "description": "Shipping request for purchase.",
     "type": "object",
     "properties": {
-        "productId": {"type": "number"},
+        "productId": {
+            "type": "integer",
+            "min": 1000
+        },
         "name": {"type": "string"},
         "addr": {"type": "string"},
         "zip": {
