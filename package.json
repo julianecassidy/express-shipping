@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "*",
-    "axios-mock-adapter": "*",
+    "axios-mock-adapter": "^1.21.4",
     "colors": "*",
     "cors": "*",
     "express": "^5.0.0-alpha.8",
